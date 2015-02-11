@@ -1,0 +1,32 @@
+[color]
+   ui = auto
+[user]
+   name = Hussam Abu-Libdeh
+   email = hussam@0xff.co
+[github]
+   user = hussamal
+   token = dd99fd8856306bbc49630c11cc8142ec
+[core]
+   editor = vim
+[alias]
+   last = log -1 HEAD
+   unstage = reset HEAD --
+
+   # List commits short form
+   ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+   # List commits and files touched
+   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+   # List commits showing dates
+   lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+   # List commits showing relative dates
+   ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+   # List commits in one line
+   le = log --oneline --decorate
+
+   # Status
+   st = status -s
+[push]
+	default = simple
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/hussam/research/pileus/poster'
+let g:netrw_dirhist_2='/Users/hussam/research/rptree/evaluation/protocol_profiles/results/primary_backup_write_128k'
+let g:netrw_dirhist_3='/Users/hussam/research/deter/basho_bench/exps/fluid'
+let g:netrw_dirhist_4='/Users/hussam/research/deter/exps'
+let g:netrw_dirhist_5='/Users/hussam/Foo'
